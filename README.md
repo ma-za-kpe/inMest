@@ -9,3 +9,9 @@
 - main Branch
 - develop Branch
 - feature Branch, this is where you need to work from, then to to your origin and make a PR to develop.
+
+## Use
+1. Clone the repo using `git clone https://github.com/ma-za-kpe/inMest.git`
+2. Navigate to the project location using your terminal/CMD
+3. Enter `npm install` in the terminal and press ENTER
+4. To run the app, enter `ng server --open` in the terminal
