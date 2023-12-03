@@ -7,10 +7,17 @@
     z-index: 2;
 }
 
-/* .form-signin input[type="email"] {
-    margin-bottom: -1px;
+.btn {
+    background-color: #17C2A6;
+    color: white;
+    font-weight: 500;
 }
 
-.form-signin input[type="password"] {
-    margin-bottom: 10px;
-} */
+.btn:hover {
+    background-color: #13a088;
+    color: white;
+}
+
+.form-check-input:checked {
+    background-color: #17C2A6;
+}
