@@ -1,0 +1,33 @@
+<!-- navigation.component.html -->
+
+<!-- Top Nav -->
+<mat-toolbar color="primary">
+  <!-- Logo on the left -->
+  <div class="logo">
+    <img src="../../assets/google_logo.png" alt="Logo">
+  </div>
+
+  <!-- Icons on the right -->
+  <div class="icons">
+    <mat-icon class="icon">notifications</mat-icon>
+    <mat-icon class="icon">settings</mat-icon>
+  </div>
+</mat-toolbar>
+
+<!-- Side Nav -->
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav mode="side" opened>
+    <!-- Add your side nav content here -->
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <!-- Add more links as needed -->
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <!-- Main content -->
+  <mat-sidenav-content>
+    <!-- Your main content goes here -->
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
